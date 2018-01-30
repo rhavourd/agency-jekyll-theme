@@ -1,7 +1,7 @@
 ---
 title: Office Supplies
 subtitle: Paper -- Forms -- Envelopes
-layout: page
+layout: standalone
 date: 2017-10-31
 img: roundicons.png
 thumbnail: roundicons-thumbnail.png
