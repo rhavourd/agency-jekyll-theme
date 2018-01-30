@@ -2,8 +2,6 @@
 title: Office Supplies
 subtitle: Paper -- Forms -- Envelopes
 layout: page
-permalink: /purchase-supplies/
-modal-id: supplies
 date: 2017-10-31
 img: roundicons.png
 thumbnail: roundicons-thumbnail.png
