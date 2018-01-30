@@ -1,7 +1,7 @@
 ---
 title: Office Supplies
 subtitle: Paper -- Forms -- Envelopes
-layout: default
+layout: page
 modal-id: 6
 date: 2017-10-31
 img: roundicons.png
