@@ -27,7 +27,7 @@ description: For your convenience, we have provided a link to a few products ava
 <ul>
 {% for page in site.supplies %}
   <li>
-    
+    {{ page }}
   {% if page.title %}
     <a class="page-link" href="{{ page.url | prepend: site.baseurl }}">{{ page.title }}</a>
   {% endif %}
