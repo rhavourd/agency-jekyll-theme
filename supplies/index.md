@@ -28,21 +28,13 @@ description: For your convenience, we have provided a link to a few products ava
   <div class="lib-body">
     {% for page in site.supplies %}
     <div class="lib-panel col-sm-3">
-      <div class="lib-row">
-        <h3 class="lib-row lib-header">{{ page.title }} </h3>
-        <p class="lib-row lib-desc">{{ page.description }}
-          <a class="page-link" href="{{ page.url | prepend: site.baseurl }}"></a>
-        </p>
-        <div class="lib-header-seperator"> </div>
-      </div>
+      <h3 class="lib-row lib-header">{{ page.title }} </h3>
+      <p class="lib-row lib-desc">{{ page.description }}
+        <a class="page-link" href="{{ page.url | prepend: site.baseurl }}">Buy it here</a>
+      </p>
       
       <img src="{{ site.baseurl }}/img/supplies/{{ page.img }}" alt="{{ page.alt }}">
-      <div class="lib-row">
-        <h3 class="lib-header">{{ page.title }} </h3>
-        <p class="lib-desc">{{ page.description }}
-        <a class="page-link" href="{{ page.url | prepend: site.baseurl }}"></a>
-        </p>
-      </div>
+
     </div>  
     {% endfor %}
   </div>
