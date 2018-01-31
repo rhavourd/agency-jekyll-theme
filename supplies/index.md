@@ -24,18 +24,20 @@ description: For your convenience, we have provided a link to a few products ava
 
 <hr>
 
-<ul>
+<div class="row">
 {% for page in site.supplies %}
-  <li>
-    <a class="page-link" href="{{ page.url | prepend: site.baseurl }}">
-      {{ page.title }}
-      <img src="{{ site.baseurl }}/img/supplies/{{ page.img }}" class="img-responsive img-centered" alt="{{ page.alt }}">
-      <p>{{ page.description }}</p>
-    </a>
-  </li>
-  
+  <div class="col-sm-6">
+    <div class="card">
+      <img class="card-img-top" src="{{ site.baseurl }}/img/supplies/{{ page.img }}" alt="{{ page.alt }}">
+      <div class="card-block">
+        <h3 class="card-title">{{ page.title }} </h3>
+        <p class="card-text">{{ page.description }}</p>
+        <a class="page-link" href="{{ page.url | prepend: site.baseurl }}"></a>
+      </div>
+    </div>  
+  </div>
 {% endfor %}
-</ul>
+</div>
 
 <hr>
 
