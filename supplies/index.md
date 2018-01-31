@@ -27,7 +27,7 @@ description: For your convenience, we have provided a link to a few products ava
 <div class="row">
   <div class="card-group">
     {% for page in site.supplies %}
-    <div class="card">
+    <div class="card w-25">
       <img class="card-img-top" src="{{ site.baseurl }}/img/supplies/{{ page.img }}" alt="{{ page.alt }}">
       <div class="card-block">
         <h3 class="card-title">{{ page.title }} </h3>
