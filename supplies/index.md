@@ -29,8 +29,8 @@ description: For your convenience, we have provided a link to a few products ava
   <li>
     <a class="page-link" href="{{ page.url | prepend: site.baseurl }}">
       {{ page.title }}
-      <img src="img/product/{{ post.img }}" class="img-responsive img-centered" alt="{{ post.alt }}">
-      <p>{{ post.description }}</p>
+      <img src="img/product/{{ page.img }}" class="img-responsive img-centered" alt="{{ page.alt }}">
+      <p>{{ page.description }}</p>
     </a>
   </li>
   
