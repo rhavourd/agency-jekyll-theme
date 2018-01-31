@@ -29,9 +29,9 @@ description: For your convenience, we have provided a link to a few products ava
     {% for page in site.supplies %}
     <div class="lib-panel col-sm-3">
       <div class="lib-row">
-        <h3 class="lib-header">{{ page.title }} </h3>
-        <p class="lib-desc">{{ page.description }}
-        <a class="page-link" href="{{ page.url | prepend: site.baseurl }}"></a>
+        <h3 class="lib-row lib-header">{{ page.title }} </h3>
+        <p class="lib-row lib-desc">{{ page.description }}
+          <a class="page-link" href="{{ page.url | prepend: site.baseurl }}"></a>
         </p>
         <div class="lib-header-seperator"> </div>
       </div>
