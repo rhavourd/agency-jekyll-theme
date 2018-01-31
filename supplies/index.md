@@ -25,8 +25,8 @@ description: For your convenience, we have provided a link to a few products ava
 <hr>
 
 <div class="row">
-{% for page in site.supplies %}
-  <div class="col-sm-6">
+  <div class="card-group">
+    {% for page in site.supplies %}
     <div class="card">
       <img class="card-img-top" src="{{ site.baseurl }}/img/supplies/{{ page.img }}" alt="{{ page.alt }}">
       <div class="card-block">
@@ -35,8 +35,8 @@ description: For your convenience, we have provided a link to a few products ava
         <a class="page-link" href="{{ page.url | prepend: site.baseurl }}"></a>
       </div>
     </div>  
+    {% endfor %}
   </div>
-{% endfor %}
 </div>
 
 <hr>
