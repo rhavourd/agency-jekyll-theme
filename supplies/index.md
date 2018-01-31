@@ -24,11 +24,17 @@ description: For your convenience, we have provided a link to a few products ava
 
 <hr>
 
+<ul>
 {% for page in site.supplies %}
+  <li>
+    
   {% if page.title %}
     <a class="page-link" href="{{ page.url | prepend: site.baseurl }}">{{ page.title }}</a>
   {% endif %}
+  </li>
+  
 {% endfor %}
+</ul>
 
 <hr>
 
