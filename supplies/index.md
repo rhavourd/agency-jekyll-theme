@@ -36,7 +36,7 @@ description: For your convenience, we have provided a link to a few products ava
         <div class="row">
           <div class="lib-body">
             {% for page in site.supplies %}
-            <div class="lib-panel col-sm-3">
+            <div class="lib-panel box-shadow col-sm-3">
               <h3 class="lib-row lib-header">{{ page.title }} </h3>
               <div class="lib-row lib-desc">{{ page.description }}
                 <a class="page-link" href="{{ page.url | prepend: site.baseurl }}">Buy it here</a>
