@@ -39,13 +39,10 @@ description: For your convenience, we have provided a link to a few products ava
             {% for page in site.supplies %}
             <div class="lib-panel box-shadow col-sm-3">
               <h3 class="lib-row lib-header">{{ page.title }} </h3>
-              <div class="lib-row lib-desc">{{ page.description }}
-              </div>
-              <div class="lib-row lib-desc">
-                <a class="page-link" href="{{ page.url | prepend: site.baseurl }}">
-                  {{ page.description }} <br>  
-                  Buy it here
-                  </a>
+              <div class="lib-row lib-desc">{{ page.description }}</div>
+              <a class="page-link" href="{{ page.url | prepend: site.baseurl }}">
+                Buy it here
+              </a>
               </div>
               <img src="{{ site.baseurl }}/img/supplies/{{ page.img }}" alt="{{ page.alt }}">
             </div>  
