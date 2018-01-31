@@ -28,7 +28,7 @@ description: For your convenience, we have provided a link to a few products ava
   <div class="lib-body">
     {% for page in site.supplies %}
     <div class="lib-panel col-sm-6">
-      <img src="{{ site.baseurl }}/img/supplies/thumbnails/{{ page.thumbnail }}" alt="{{ page.alt }}">
+      <img src="{{ site.baseurl }}/img/supplies/{{ page.img }}" alt="{{ page.alt }}">
       <div class="lib-row">
         <h3 class="lib-header">{{ page.title }} </h3>
         <p class="lib-desc">{{ page.description }}
