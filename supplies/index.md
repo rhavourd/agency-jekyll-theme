@@ -25,14 +25,15 @@ description: For your convenience, we have provided a link to a few products ava
 <hr>
 
 <div class="row">
-  <div class="card-group">
+  <div class="lib-body">
     {% for page in site.supplies %}
-    <div class="card w-25">
-      <img class="card-img-top" width="200px" src="{{ site.baseurl }}/img/supplies/{{ page.img }}" alt="{{ page.alt }}">
-      <div class="card-block">
-        <h3 class="card-title">{{ page.title }} </h3>
-        <p class="card-text">{{ page.description }}</p>
+    <div class="lib-panel">
+      <img width="200px" src="{{ site.baseurl }}/img/supplies/{{ page.img }}" alt="{{ page.alt }}">
+      <div class="lib-row">
+        <h3 class="lib-header">{{ page.title }} </h3>
+        <p class="lib-desc">{{ page.description }}
         <a class="page-link" href="{{ page.url | prepend: site.baseurl }}"></a>
+        </p>
       </div>
     </div>  
     {% endfor %}
