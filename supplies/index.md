@@ -28,7 +28,7 @@ description: For your convenience, we have provided a link to a few products ava
   <div class="card-group">
     {% for page in site.supplies %}
     <div class="card w-25">
-      <img class="card-img-top" max-width="250px" src="{{ site.baseurl }}/img/supplies/{{ page.img }}" alt="{{ page.alt }}">
+      <img class="card-img-top" width="200px" src="{{ site.baseurl }}/img/supplies/{{ page.img }}" alt="{{ page.alt }}">
       <div class="card-block">
         <h3 class="card-title">{{ page.title }} </h3>
         <p class="card-text">{{ page.description }}</p>
