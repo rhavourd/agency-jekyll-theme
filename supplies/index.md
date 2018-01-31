@@ -10,7 +10,6 @@ project-date: October 2017
 client: Your District
 category: Supplies
 description: For your convenience, we have provided a link to a few products available from Amazon, typically delivered within a day or two.
-
 ---
 <section id="supplies">
     <div class="container">
@@ -63,5 +62,5 @@ description: For your convenience, we have provided a link to a few products ava
             </ul>
           </div>
         </div>
-
+    </div>
 </section>
