@@ -27,7 +27,7 @@ description: For your convenience, we have provided a link to a few products ava
 <div class="row">
   <div class="lib-body">
     {% for page in site.supplies %}
-    <div class="lib-panel col-sm-6">
+    <div class="lib-panel col-sm-3">
       <img src="{{ site.baseurl }}/img/supplies/{{ page.img }}" alt="{{ page.alt }}">
       <div class="lib-row">
         <h3 class="lib-header">{{ page.title }} </h3>
