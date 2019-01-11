@@ -1,4 +1,5 @@
 _site
+*.lock
 
 # Windows image file caches
 Thumbs.db
