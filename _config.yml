@@ -6,10 +6,10 @@ title: SchoolsOPEN
 email: info@schools-open.com
 description: "SchoolsOPEN is Michigan's premier provider of Fincial and Payroll solutions for Michigan public schools and academies, private schools, and community colleges."
 
-collections:
-  supplies:
-    output: true
-    permalink: /supplies/:path/
+#collections:
+#  supplies:
+#    output: true
+#    permalink: /supplies/:path/
 
 # Team names, titles and social links
 people:
